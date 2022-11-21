@@ -2,13 +2,17 @@
     box-sizing: border-box;
 }
 
-.asidebar{
-    min-height: 1725px;
+.overflow-row{
+    overflow: hidden;
 }
 
 .asidebar-content{
     width: 100%;
     min-height: 1725px;
+    margin-top: -9999px;
+    margin-bottom: -9999px;
+    padding-top: 9999px;
+    padding-bottom: 9999px;
     float: left;
     background: rgb(2,0,36);
     background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(121,9,107,1) 35%, rgba(97,0,255,1) 100%);
@@ -317,12 +321,6 @@
 .behance a{
     color: white;
     margin-left: 5px;
-}
-
-
-
-.amain{
-    min-height: 1725px;
 }
 
 .amain-content{
