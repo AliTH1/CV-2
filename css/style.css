@@ -1,0 +1,666 @@
+*{
+    box-sizing: border-box;
+}
+
+.asidebar{
+    min-height: 1725px;
+}
+
+.asidebar-content{
+    width: 100%;
+    min-height: 1725px;
+    float: left;
+    background: rgb(2,0,36);
+    background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(121,9,107,1) 35%, rgba(97,0,255,1) 100%);
+}
+
+.portret{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.portret img{
+    width: 200px;
+    min-height: 200px;
+}
+
+.portret-text{
+    width: 100%;
+    min-height: 140px;
+    float: left;
+}
+
+.portret-text-1{
+    width: 100%;
+    min-height: 40px;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.portret-text-2{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+}
+
+.contact-info{
+    width: 100%;
+    min-height: 200px;
+    float: left;
+}
+
+.div-zip-code{
+    width: 95%;
+    min-height: 30px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.zip-code{
+    width: 95%;
+    min-height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.div-date{
+    width: 95%;
+    min-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    width: 95%;
+    min-height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.div-address{
+    width: 95%;
+    min-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.address{
+    width: 95%;
+    min-height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+.div-mail{
+    width: 95%;
+    min-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.mail{
+    width: 95%;
+    min-height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.div-worktime{
+    width: 95%;
+    min-height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.worktime{
+    width: 95%;
+    min-height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+.asidebar-merits{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.certificate{
+    width: 90%;
+    min-height: 120px;
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+
+.certificate-text-1{
+    width: 90%;
+    min-height: 35px;
+    float: left;
+    font-size: 24px;
+}
+
+.certificate-text-2{
+    width: 100%;
+    min-height: 65px;
+    float: left;
+}
+
+
+.idiomas{
+    width: 90%;
+    min-height: 120px;
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+
+.idiomas-text-1{
+    width: 90%;
+    min-height: 35px;
+    float: left;
+    font-size: 24px;
+}
+
+.idiomas-text-2{
+    width: 100%;
+    min-height: 65px;
+    float: left;
+}
+
+.destacado{
+    width: 90%;
+    min-height: 120px;
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+
+.destacado-text-1{
+    width: 90%;
+    min-height: 35px;
+    float: left;
+    font-size: 24px;
+}
+
+.destacado-text-2{
+    width: 100%;
+    min-height: 65px;
+    float: left;
+}
+
+.social-media{
+    width: 100%;
+    min-height: 110px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+
+.social-media-head-text{
+    width: 100%;
+    min-height: 40px;
+    margin-left: 10px;
+    float: left;
+    font-size: 24px;
+}
+
+.linkedin{
+    width: 40%;
+    min-height: 25px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-icon{
+    width: 25px;
+    min-height: 25px;
+    float: left;
+    color: white;
+}
+
+.linkedin a{
+    color: white;
+    margin-left: 5px;
+}
+
+.github{
+    width: 40%;
+    min-height: 25px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.github-icon{
+    width: 25px;
+    min-height: 25px;
+    float: left;
+    color: white;
+}
+
+.github a{
+    color: white;
+    margin-left: 5px;
+}
+
+.behance{
+    width: 40%;
+    min-height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.behance-icon{
+    width: 25px;
+    min-height: 25px;
+    float: left;
+    color: white;
+}
+
+.behance a{
+    color: white;
+    margin-left: 5px;
+}
+
+
+
+.amain{
+    min-height: 1725px;
+}
+
+.amain-content{
+    width: 100%;
+    min-height: 1725px;
+    padding-left: 30px;
+}
+
+.line{
+    width: 70px;
+    height: 4px;
+    margin-top: 5px;
+    border-radius: 4px;
+    float: left;
+    background: #AD00FF;
+}
+
+.bio{
+    width: 95%;
+    min-height: 185px;
+    margin-top: 20px;
+    float: left;
+    background-color: white;
+}
+
+.bio-head-text{
+    width: 100%;
+    min-height: 35px;
+    float: left;
+    font-size: 26px;
+}
+
+.bio-text{
+    width: 100%;
+    min-height: 85px;
+    margin-top: 20px;
+    float: left;
+    color: #878787;
+}
+
+
+.experience{
+    width: 95%;
+    min-height: 500px;
+    float: left;
+    background-color: white;
+}
+
+.experience-head-text{
+    width: 100%;
+    min-height: 35px;
+    float: left;
+    font-size: 26px;
+}
+
+.experience-element-1{
+    width: 100%;
+    min-height: 250px;
+    margin-top: 20px;
+    float: left;
+}
+
+.itr{
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-color: royalblue;
+}
+
+.itr img{
+    width: 70px;
+    height: 70px;
+}
+
+.element-experience-1-text-1{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    float: left;
+}
+
+.element-experience-1-text-2{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+}
+
+.element-experience-1-text-3{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+    color: #878787;
+}
+
+
+
+.experience-element-2{
+    width: 100%;
+    min-height: 320px;
+    float: left;
+}
+
+.factor-it{
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-color: royalblue;
+}
+
+.factor-it img{
+    width: 70px;
+    height: 70px;
+}
+
+.element-experience-2-text-1{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    float: left;
+}
+
+.element-experience-2-text-2{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+}
+
+.element-experience-2-text-3{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+    color: #878787;
+}
+
+
+.education{
+    width: 95%;
+    min-height: 400px;
+    float: left;
+    background-color: white;
+}
+
+.education-head-text{
+    width: 100%;
+    min-height: 35px;
+    float: left;
+    font-size: 26px;
+}
+
+.education-element-1{
+    width: 100%;
+    min-height: 50px;
+    margin-top: 30px;
+    float: left;
+}
+
+.coder{
+    width: 70px;
+    height: 50px;
+    float: left;
+}
+
+.coder img{
+    width: 70px;
+    height: 50px;
+}
+
+.education-element-1-text-1{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    float: left;
+}
+
+.education-element-1-text-2{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+}
+
+
+.education-element-2{
+    width: 100%;
+    min-height: 70px;
+    margin-top: 30px;
+    float: left;
+}
+
+.ingeneria{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.ingeneria img{
+    width: 70px;
+    height: 70px;
+}
+
+.education-element-2-text-1{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    float: left;
+}
+
+.education-element-2-text-2{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+}
+
+
+.education-element-3{
+    width: 100%;
+    min-height: 70px;
+    margin-top: 30px;
+    float: left;
+}
+
+.bachillerato{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.bachillerato img{
+    width: 70px;
+    height: 70px;
+}
+
+.education-element-3-text-1{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    float: left;
+}
+
+.education-element-3-text-2{
+    width: 80%;
+    min-height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+}
+
+
+
+
+.course{
+    width: 95%;
+    min-height: 220px;
+    float: left;
+}
+
+.course-head-text{
+    width: 100%;
+    min-height: 35px;
+    float: left;
+    font-size: 26px;
+}
+
+.course-element-1{
+    width: 100%;
+    min-height: 50px;
+    margin-top: 30px;
+    float: left;
+}
+
+.udemy{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.udemy img{
+    width: 70px;
+    height: 70px;
+}
+
+.course-element-1-text-1{
+    width: 80%;
+    min-height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    float: left;
+}
+
+.course-element-1-text-2{
+    width: 80%;
+    min-height: 25px;
+    margin-left: 20px;
+    font-size: 16px;
+    float: left;
+}
+
+
+.skills{
+    width: 95%;
+    min-height: 220px;
+    float: left;
+}
+
+.skills-head-text{
+    width: 100%;
+    min-height: 35px;
+    float: left;
+    font-size: 26px;
+}
+
+.skills-text{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 15px;
+    float: left;
+}
+
+.ul-skills-text{
+    color: #878787;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
