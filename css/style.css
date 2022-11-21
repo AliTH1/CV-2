@@ -387,7 +387,6 @@
     width: 70px;
     height: 70px;
     float: left;
-    background-color: royalblue;
 }
 
 .itr img{
@@ -432,7 +431,6 @@
     width: 70px;
     height: 70px;
     float: left;
-    background-color: royalblue;
 }
 
 .factor-it img{
@@ -661,4 +659,49 @@
     font-size: 16px;
     padding-top: 10px;
     padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 990px){
+    .itr, .factor-it, .coder, .ingeneria, .bachillerato, .udemy{
+        width: 100%;
+        min-height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .experience{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .experience-head-text{
+        text-align: left;
+    }
+
+    .experience-element-2{
+        padding-top: 20px;
+    }
+
+    .education{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .education-head-text{
+        text-align: left;
+    }
+
+    .course{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .course-head-text{
+        text-align: left;
+    }
+
+    .skills{
+        padding-top: 30px;
+    }
 }
